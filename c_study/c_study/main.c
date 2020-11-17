@@ -21,8 +21,6 @@ int strcmp(char* x, char* y) {
 
 		else if (x[i] == y[i])
 		{
-			x++;
-			y++;
 		}
 
 		  
@@ -52,12 +50,12 @@ char* strcat(char* dest, char* src) {
 }*/
 
 int main(void) {
-	char a[10] ="321";
-	char b[10]= "987";
+	char a[10] ="927";
+	char b[10]= "981";
 	/*printf("%s\n", strcpy(a,b)); // strcpy 예시
-	printf("%s\n", strcat(a, b));  // strcat 예시 
+	printf("%s\n", strcat(a, b));  // strcat 예시 */
 	printf("%d\n", strcmp(a, b));  // strcmp 예시 
-	*/
+	
 	return 0;
 
 }
